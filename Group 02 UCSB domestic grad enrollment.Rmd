@@ -18,8 +18,11 @@ ucsb_grad <- read_csv(here("data", "ucsb_grad_data.csv"))
 
 ```{r}
 ggplot(ucsb_grad, aes(x = year_abbr, y = domestic_enrollment)) +
-  geom_col(aes(fill = ethnicity, position = "fill")) +
+  geom_col(aes(fill = ethnicity), position = "fill") +
   labs(x = "Academic Year",
-       y= "Domestic Student Enrollment")
+       y= "Proportion of Domestic Student Enrollment",
+       title = "UCSB Domestic Enrollment by Ethnicity, 2008-2019") +
+  theme_minimal()
 ```
 
+**Figure 1** Domestic student enrollment at UCSB has grown more diverse over time.
