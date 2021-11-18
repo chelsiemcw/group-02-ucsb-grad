@@ -26,5 +26,8 @@ ggplot(ucsb_grad, aes(x = year_abbr, y = domestic_enrollment)) +
 ```
 
 **Figure 1** Domestic student enrollment at UCSB has grown more diverse over time.
+<<<<<<< HEAD:Group 02 UCSB domestic grad enrollment.Rmd
 
 *Data source: UCSB Office of Budget and Planning, https://bap.ucsb.edu/institutional-research/campus-profiles*
+=======
+>>>>>>> 9037ef3547ae8eeccd371c657dec38686b6764ec:group_02_ucsb_grad.Rmd
